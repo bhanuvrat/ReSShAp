@@ -1,0 +1,26 @@
+This application is a Remote Screen Sharing Application and this README is intented to help you compile and run it.
+
+It contains three modules namely AccessorApp, SnapServer, SnapTool.
+
+SnapServer and SnapTool are supposed to be placed in same folder on the computer to be accessed.
+AccessorApp is to be compiled and run on the computer accessing.
+
+Download the appropriate file and compile it and have fun.
+You will need qt to be installed on your computer. Refer to the guide for installing and running the application.
+
+Get in every directory and fire these commands
+qmake project
+qmake 
+make clean
+make
+
+An executable having the same name as that of the folder it is in shall be created.
+Run the executables AccessorApp and SnapServer on two computers conected to each other over a network.
+The GUI is intutive and wont be difficult to handle at this stage, although a proper readme with content on using the application shall be uploaded soon.
+
+Development is on and a good feature heavy application will be available soon.
+
+Happy ReSShapp-ing.
+
+Regards
+Anuvrat Parashar
